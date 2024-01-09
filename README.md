@@ -2,7 +2,7 @@
 &nbsp;
 
 ### Description
-Estudo utilizando a Twilio para validação de cadastro por meio de um código enviado por SMS. Para tal foram utilizados o Nodejs, Typescript e Prisma com práticas de Clean Architecture.
+Exemplo utilizando a Twilio como validação de cadastro por meio de um código enviado por SMS. Para tal foram utilizados o Nodejs, Typescript e Prisma com práticas de Clean Architecture.
 
 &nbsp;
 
