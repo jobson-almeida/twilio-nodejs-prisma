@@ -1,10 +1,12 @@
-## Description
+## Cadastro de usuário com validação Twilio
+&nbsp;
 
-Estudo Nodejs, Typescript e Prisma com práticas de Clean Architecture  
+### Description
+Estudo utilizando a Twilio para validação de cadastro por meio de um código enviado por SMS. Para tal foram utilizados o Nodejs, Typescript e Prisma com práticas de Clean Architecture.
+
 &nbsp;
 
 ### Linguagens e Ferramentas 
-
 <p>
   <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" title="javascript" width="40" height="40" />
@@ -18,8 +20,8 @@ Estudo Nodejs, Typescript e Prisma com práticas de Clean Architecture
     <img src="https://cdn.worldvectorlogo.com/logos/docker-4.svg" alt="docker" title="docker" width="40" height="40" />
   </a>
   &nbsp;
-  <a href="https://vitest.dev" target="_blank" rel="noreferrer">
-    <img src="https://vitest.dev/logo.svg" alt="vitest" title="vitest" width="40" height="40" />
+  <a href="https://www.twilio.com/" target="_blank" rel="noreferrer">
+    <img src="https://brandslogos.com/wp-content/uploads/images/twilio-logo-vector.svg" alt="twilio" title="twilio" width="40" height="40" />
   </a>
   &nbsp;
   <a href="https://nodejs.org" target="_blank" rel="noreferrer">
@@ -39,7 +41,16 @@ Estudo Nodejs, Typescript e Prisma com práticas de Clean Architecture
   </a>
 </p>
 
- 
+&nbsp;
+
+### Defina as variáveis de ambiente com as informações da sua conta Twilio
+
+```dosini
+TWILIO_ACCOUNT_SID=
+TWILIO_AUTH_TOKEN=
+TWILIO_PHONE_NUMBER=
+```
+
 &nbsp;
 
 ### Instalação e execução do projeto
@@ -50,20 +61,9 @@ docker-compose up
 
 &nbsp;
 
-### Execução dos testes
-
-```dosini
-docker compose exec application bash
-npm run test
-```
-
-&nbsp;
-
 ### Documentação da API
 
-```dosini
 http://localhost:4000/api-docs
-```
 
 &nbsp;
 &nbsp;
